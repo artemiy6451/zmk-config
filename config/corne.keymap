@@ -28,10 +28,10 @@
 
         raise_layer {
             bindings = <
-&kp TAB  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &kp PERCENT    &kp CARET       &kp AMPERSAND          &kp ASTERISK       &none             &kp SEMICOLON  &none
+&kp TAB  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &kp PERCENT    &kp CARET       &kp AMPERSAND          &kp ASTERISK       &kp QUESTION      &kp SEMICOLON  &none
 &none    &kp SQT          &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp PLUS       &kp MINUS       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE   &kp COLON      &kp DOUBLE_QUOTES
 &none    &none            &none           &kp GRAVE         &kp TILDE             &none          &kp UNDERSCORE  &kp EQUAL              &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH      &kp PIPE
-                                          &kp DELETE        &none                 &kp SPACE      &kp RET         &none                  &kp BACKSPACE
+                                          &kp DELETE        &none                 &kp SPACE      &kp RET         &none                  &none
             >;
         };
 
